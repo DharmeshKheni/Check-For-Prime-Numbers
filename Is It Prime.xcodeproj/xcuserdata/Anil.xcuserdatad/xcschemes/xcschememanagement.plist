@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>testing.xcscheme</key>
+		<key>Is It Prime.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>048CABB41A98728A00BE8AB0</key>
+		<key>AF5B3ABC1A9837F4001C5901</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>048CABC91A98728A00BE8AB0</key>
+		<key>AF5B3AD11A9837F5001C5901</key>
 		<dict>
 			<key>primary</key>
 			<true/>

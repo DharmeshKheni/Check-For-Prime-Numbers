@@ -1,15 +1,15 @@
 //
-//  testingTests.swift
-//  testingTests
+//  Is_It_PrimeTests.swift
+//  Is It PrimeTests
 //
-//  Created by Anil on 21/02/15.
-//  Copyright (c) 2015 Variya Soft Solutions. All rights reserved.
+//  Created by Dandre Ealy on 2/20/15.
+//  Copyright (c) 2015 Dandre Ealy. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class testingTests: XCTestCase {
+class Is_It_PrimeTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

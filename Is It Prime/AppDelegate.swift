@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  testing
+//  Is It Prime
 //
-//  Created by Anil on 21/02/15.
-//  Copyright (c) 2015 Variya Soft Solutions. All rights reserved.
+//  Created by Dandre Ealy on 2/20/15.
+//  Copyright (c) 2015 Dandre Ealy. All rights reserved.
 //
 
 import UIKit

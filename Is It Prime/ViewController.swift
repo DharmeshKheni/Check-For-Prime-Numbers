@@ -1,25 +1,20 @@
 //
 //  ViewController.swift
-//  testing
+//  Is It Prime
 //
-//  Created by Anil on 21/02/15.
-//  Copyright (c) 2015 Variya Soft Solutions. All rights reserved.
+//  Created by Dandre Ealy on 2/20/15.
+//  Copyright (c) 2015 Dandre Ealy. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
     
-    
-    
-    
     @IBOutlet weak var number: UITextField!
     
-    
-    
     @IBOutlet weak var results: UILabel!
-    
-    
+
+
     @IBAction func buttonPressed(sender: AnyObject) {
         
         var numberInt = number.text.toInt()
@@ -44,7 +39,7 @@ class ViewController: UIViewController {
                     
                     if unwrappedNumber % i == 0 {
                         isPrime = false
-                        
+                    
                     }
                 }
                 
@@ -55,39 +50,25 @@ class ViewController: UIViewController {
                 results.text = "\(unwrappedNumber)Is Prime"
             }else {
                 
-                results.text = "\(unwrappedNumber)Is not Prime"
+                 results.text = "\(unwrappedNumber)Is not Prime"
             }
-            
-            
-            
             
         }else {
             
             results.text = "Enter a number"
         }
         
-        
-        
-        
     }
-    
-    
-    
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+
+
 }
 
